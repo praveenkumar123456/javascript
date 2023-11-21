@@ -19,6 +19,20 @@ let index= fruits.indexOf("apple");
 
 console.log("index of apple is:=> ",index);
 
-console.log(fruits)
+console.log(fruits);
+
+let prices=[2,,34,56,7,343];
+
+// for(let i=0;i<prices.length;i++)
+// {
+//     console.log(prices[i]);
+// }    
+
+
+
+for(let price of prices)
+{
+    console.log(price);
+}
 
 
